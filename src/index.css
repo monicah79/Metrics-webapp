@@ -1,19 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
 .head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* justify-content: center; */
+
+  /* margin: 0 60px; */
+
+  /* width: 50%; */
+  background: #de5283;
+  color: #fff;
 }
 
 .headings {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.h2 {
+  text-decoration: none;
 }
 
 .icons {
-    gap: 20px;
-    display: flex;
+  gap: 20px;
+  display: flex;
+}
+
+.show-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.movie-container {
+  background: #de5283;
+  color: #fff;
+}
+
+.movie-container:nth-child(4n + 1),
+.movie-container:nth-child(4n + 4) {
+  background: #943e5d;
+  color: #fff;
+}
+
+.slot {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  color: #fff;
+}
+
+.symbol {
+  align-items: self-start;
+  margin: 20px;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  background: #de5283;
+  color: #fff;
+}
+
+.link {
+  align-items: center;
+  display: flex;
+  gap: 40px;
+}
+
+.image {
+  background: #943e5d;
+}
+
+.web {
+  display: flex;
+  gap: 50px;
+  background: #de5283;
+  color: #fff;
+}
+
+.single-show-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.web:nth-child(even) {
+  background: #943e5d;
+  color: #fff;
 }

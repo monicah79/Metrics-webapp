@@ -1,17 +1,17 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Shows from "./Display/Homepage";
-import Singleshow from "./Display/singleShow";
+import Shows from './Display/Homepage';
+import Singleshow from './Display/singleShow';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Routes>
-        <Route path="/" element={< Shows />} />
-        <Route path="/singleShow" element={< Singleshow />} />
+          <Route path="/" element={<Shows />} />
+          <Route path="/:id" element={<Singleshow />} />
         </Routes>
       </Router>
-     
+
     </div>
   );
 }
