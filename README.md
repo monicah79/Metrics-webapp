@@ -88,6 +88,7 @@ Css
 
 
 - [Live Demo Link](https://metric-web-application.netlify.app/)
+-[live presentation](https://www.loom.com/share/828a58a91f724c09a3772f8f8d762e1c)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,7 +160,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[components]**
 
@@ -181,7 +181,7 @@ Feel free to check the [issues page](https://github.com/monicah79/Metrics-webapp
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project reach me out.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -198,22 +198,22 @@ I would like to thank Microverse for giving me this opportunity to learn and eve
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
 - **[Question_1]**
-
+  What are some popular software stacks?
   - [Answer_1]
-
+LAMP Stack (Linux, Apache, MySQL, PHP)
+The LAMP stack is a time-tested and industry standard back-end stack that uses the Linux operating system as its foundation
+ Data is stored in a MySQL database, which is a free and open-source (FOSS) relational database platform
 - **[Question_2]**
-
+What programming language should I learn first?
   - [Answer_2]
-
+In my opinion, it doesn't really matter! There are certainly languages that are easier for beginners to pick up, such as Python, Ruby, or JavaScript. But most programming languages have a plethora of things in common, and the core concepts are usually fairly similar.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT]() licensed.
+This project is [MIT](https://github.com/monicah79/Metrics-webapp/blob/metrics-webapp/License) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
