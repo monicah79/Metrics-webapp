@@ -77,15 +77,14 @@
 
 .image {
   background: #943e5d;
-  padding: 50px 0;
 }
 
 .web {
   display: flex;
-  gap: 50px;
+  gap: 70px;
   background: #de5283;
   color: #fff;
-  padding: 30px 0;
+  padding: 50px 30px;
 }
 
 .single-show-container {
