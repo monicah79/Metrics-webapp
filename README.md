@@ -189,7 +189,7 @@ If you like this project reach me out.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to  Nelson Sakwa the author of the original design.
+> I would like to give credit to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
 
 I would like to thank Microverse for giving me this opportunity to learn and everyone whose code was used.
 

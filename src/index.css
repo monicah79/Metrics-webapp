@@ -4,12 +4,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  /* justify-content: center; */
-
-  /* margin: 0 60px; */
-
-  /* width: 50%; */
   background: #de5283;
   color: #fff;
 }
@@ -53,6 +47,10 @@
   align-items: flex-end;
   flex-direction: column;
   color: #fff;
+}
+
+.logo {
+  align-items: flex-start;
 }
 
 .symbol {
