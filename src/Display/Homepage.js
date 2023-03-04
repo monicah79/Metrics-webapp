@@ -20,7 +20,7 @@ const Shows = () => {
 
   const newSites = posts.filter((movie) => (
     movie.name.toLowerCase().includes(searchItem.toLowerCase())
-    || movie.region.toLowerCase().includes(searchItem.toLowerCase())));
+    || movie.logo.toLowerCase().includes(searchItem.toLowerCase())));
 
   const handleSearch = (e) => {
     e.preventDefault();
