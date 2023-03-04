@@ -35,7 +35,6 @@ const Shows = () => {
         type="text"
         name="searchItem"
         placeholder="search for Movies site"
-        value={searchItem}
         onChange={handleSearch}
       />
       <div className="show-container">
@@ -46,8 +45,6 @@ const Shows = () => {
                <Movies
                  key={post.id}
                  title={post.name}
-                 logo={post.logo_100px}
-                 id={post.id}
                />
              ))
              : posts.map((post) => (
