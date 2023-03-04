@@ -1,7 +1,9 @@
 import React, { useRef, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { FaMicrophone, FaCog, FaArrowCircleLeft } from 'react-icons/fa';
+import {
+  FaMicrophone, FaCog, FaArrowCircleLeft, FaArrowCircleRight,
+} from 'react-icons/fa';
 import { getPosts } from '../redux/slice/postSlice';
 
 const Singleshow = () => {
@@ -53,22 +55,27 @@ const Singleshow = () => {
             <div className="web">
               <h2>id</h2>
               <h2>{movie.id}</h2>
+              <p><FaArrowCircleRight /></p>
             </div>
             <div className="web">
               <h3>Movies Type</h3>
               <h3>{movie.type}</h3>
+              <p><FaArrowCircleRight /></p>
             </div>
             <div className="web">
               <h4>Regions</h4>
               <h4>{movie.regions}</h4>
+              <p><FaArrowCircleRight /></p>
             </div>
             <div className="web">
               <h5>Website</h5>
               <h5>{movie.android_playstore_url}</h5>
+              <p><FaArrowCircleRight /></p>
             </div>
             <div className="web">
               <h6>Ios Website</h6>
               <h6>{movie.ios_appstore_url}</h6>
+              <p><FaArrowCircleRight /></p>
             </div>
           </div>
 
