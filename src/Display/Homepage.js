@@ -18,6 +18,10 @@ const Shows = () => {
     }
   }, [dispatch]);
 
+  const newSites = posts.filter((movie) => (
+    movie.name.toLowerCase().includes(searchItem.toLowerCase())
+    || movie.region.toLowerCase().includes(searchItem.toLowerCase())));
+
   const handleSearch = (e) => {
     e.preventDefault();
     setSearchItem(e.target.value);
@@ -37,14 +41,23 @@ const Shows = () => {
       <div className="show-container">
 
         {
-           posts.map((post) => (
-             <Movies
-               key={post.id}
-               title={post.name}
-               logo={post.logo_100px}
-               id={post.id}
-             />
-           ))
+           searchItem.length
+             ? newSites.map((post) => (
+               <Movies
+                 key={post.id}
+                 title={post.name}
+                 logo={post.logo_100px}
+                 id={post.id}
+               />
+             ))
+             : posts.map((post) => (
+               <Movies
+                 key={post.id}
+                 title={post.name}
+                 logo={post.logo_100px}
+                 id={post.id}
+               />
+             ))
          }
       </div>
     </div>
