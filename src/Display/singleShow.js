@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { FaMicrophone, FaCog, FaAngleLeft } from 'react-icons/fa';
+import { FaMicrophone, FaCog, FaArrowCircleLeft } from 'react-icons/fa';
 import { getPosts } from '../redux/slice/postSlice';
 
 const Singleshow = () => {
@@ -23,7 +23,7 @@ const Singleshow = () => {
       <nav className="nav-bar">
         <div className="link">
           <Link to="/" style={{ color: 'white' }}>
-            <FaAngleLeft />
+            <FaArrowCircleLeft />
           </Link>
 
           <h2>Description</h2>
