@@ -41,12 +41,18 @@ const Shows = () => {
 
         {
            searchItem.length
-             ? newSites.map((post) => (
-               <Movies
-                 key={post.id}
-                 title={post.name}
-               />
-             ))
+             ? newSites.filter((movie) => {
+               if (searchItem === '') {
+                 return movie;
+               }
+               if (
+                 movie.name.toLowerCase().includes(searchItem.toLowerCase())
+               ) {
+                 return movie;
+               }
+               return null;
+             })
+
              : posts.map((post) => (
                <Movies
                  key={post.id}
