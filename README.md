@@ -189,7 +189,7 @@ If you like this project reach me out.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+> Give credit to  Nelson Sakwa the author of the original design.
 
 I would like to thank Microverse for giving me this opportunity to learn and everyone whose code was used.
 

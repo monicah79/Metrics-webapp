@@ -14,8 +14,7 @@ const Singleshow = () => {
       shouldGetPosts.current = false;
       dispatch(getPosts());
     }
-    // eslint-disable-next-line
-    },[]);
+  }, [dispatch]);
 
   const { id } = useParams();
 

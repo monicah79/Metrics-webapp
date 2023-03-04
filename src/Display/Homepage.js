@@ -16,8 +16,7 @@ const Shows = () => {
       shouldGetPosts.current = false;
       dispatch(getPosts());
     }
-    // eslint-disable-next-line
-    },[]);
+  }, [dispatch]);
 
   return (
     <div className="App">

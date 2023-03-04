@@ -78,6 +78,7 @@
 
 .image {
   background: #943e5d;
+  padding: 50px 0;
 }
 
 .web {
@@ -85,6 +86,7 @@
   gap: 50px;
   background: #de5283;
   color: #fff;
+  padding: 30px 0;
 }
 
 .single-show-container {
