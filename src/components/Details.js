@@ -12,11 +12,9 @@ const Movies = (props) => {
       <Link to={`${id}`} className="slot">
         <FaAngleRight className="icon-right" />
       </Link>
-
+      <div><img src={logo} className="logo" alt="" /></div>
       <div className="slot">
         <h4 className="title">{title}</h4>
-        <img src={logo} className="logo" alt="" />
-
       </div>
     </div>
   );
